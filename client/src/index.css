@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#092328;background:#f6faf8;font-synthesis:none;text-rendering:optimizeLegibility;--hh-900:#092328;--hh-800:#12544f;--hh-700:#2a835f;--hh-300:#8bbb92;--hh-soft:#eaf3ec}*{box-sizing:border-box}body{margin:0;min-width:320px}button,input,textarea,select{font:inherit}a{color:inherit;text-decoration:none}.container-page{width:min(1680px,calc(100% - 64px));margin-inline:auto}@media(max-width:900px){.container-page{width:calc(100% - 40px)}}@media(max-width:640px){.container-page{width:calc(100% - 28px)}}.glass{background:rgba(255,255,255,.82);backdrop-filter:blur(16px)}
+
+/* Hometown Hub palette: #092328, #12544f, #2a835f, #8bbb92 */
+.bg-violet-600,.bg-violet-700{background-color:#12544f!important}.bg-violet-500{background-color:#2a835f!important}.text-violet-600,.text-violet-700,.text-violet-800,.text-violet-900{color:#12544f!important}.bg-violet-50,.bg-violet-100{background-color:#eaf3ec!important}.border-violet-200,.border-violet-300{border-color:#8bbb92!important}.hover\:bg-violet-700:hover,.hover\:bg-violet-600:hover{background-color:#2a835f!important}.hover\:text-violet-700:hover,.hover\:text-violet-900:hover{color:#12544f!important}.focus\:border-violet-300:focus,.focus\:border-violet-400:focus{border-color:#2a835f!important}.focus\:ring-violet-100:focus{--tw-ring-color:rgb(139 187 146 / .28)!important}.shadow-violet-600\/20{--tw-shadow-color:rgb(18 84 79 / .2)!important}
